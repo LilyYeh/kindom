@@ -18,8 +18,6 @@
 				isShowLogin:true,
 				isShowWaiting:false,
 				isShowGame:false,
-
-				socketID:this.$socket.id,
 			}
 		},
 		sockets: {
