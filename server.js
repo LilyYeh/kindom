@@ -1,6 +1,6 @@
 const server = require('http').createServer();
 const io = require('socket.io')(server);
-const log = require('simple-node-logger').createSimpleFileLogger('/var/log/node/error.log');
+//const log = require('simple-node-logger').createSimpleFileLogger('/var/log/node/error.log');
 
 const rs = {};  //各房間裡的使用者(players)
 
@@ -175,7 +175,7 @@ playerRoom.on('connection', (socket) => {
 });
 
 server.listen(3000, () => {
-	log.info("Server Started");
+	//log.info("Server Started");
 });
 
 function leaveAllRoom(room,user){
