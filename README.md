@@ -10,6 +10,6 @@ view http://localhost/kingdom
 ```
 
 #### 開發工具
-1. vue3
+1. vue.js 3
 2. @vue/cli 4.5.10
 3. socket.io
