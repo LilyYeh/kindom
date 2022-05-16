@@ -1,6 +1,7 @@
 # kingdom
+王國 - 與朋友線上玩桌遊
 
-## Project setup
+## 環境建置
 ```
 cd docker;
 docker-compose up -d;
