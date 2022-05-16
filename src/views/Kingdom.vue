@@ -1,4 +1,5 @@
 <template>
+	<h3>王國</h3>
 	<Login v-show="isShowLogin"/>
 	<WaitingRoom v-show="isShowWaiting"/>
 	<Game v-show="isShowGame"/>
